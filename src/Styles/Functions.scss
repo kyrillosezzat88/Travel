@@ -1,0 +1,35 @@
+//Functions 
+//Title style
+@mixin Title {
+    font-size: 32px;
+    font-family: 'Lato-Regular';
+    text-align: center;
+    color:$Tuatara;
+}
+//Center using Flex 
+@mixin FlexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+//center position
+@mixin PosCenter {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+}
+//owl carousel buttons
+@mixin owlButton {
+    position: absolute;
+    top:50%;
+    right:-6%;
+    background: $White;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ddd;
+    transform: translateY(-50%);
+    outline: none;
+    transition: all .4s ease-in-out;
+}

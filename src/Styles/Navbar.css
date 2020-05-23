@@ -1,0 +1,23 @@
+.navbar {
+  background: #fefefe;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+
+.navbar a {
+  color: #272726;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  font-family: 'Lato-Regular';
+  font-size: 13px;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  color: #6b6b6b;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+/*# sourceMappingURL=Navbar.css.map */

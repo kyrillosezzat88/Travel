@@ -1,0 +1,21 @@
+/*Style Footer */
+.Footer{
+    background: url('../Assets/Images/footer.jpg');
+    background-size:contain;
+    padding: 40px 0;
+    .logo{
+        p{
+            margin: 10px 0;
+            font-family: 'Lato-Regular';
+            color:$Grey;
+        }
+        img{
+            cursor: pointer;
+        }
+    }
+    h6{
+        font-family: 'Lato-Bold';
+        font-size: 18px;
+        color:$Tuatara;
+    }
+}

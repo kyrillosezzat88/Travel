@@ -1,0 +1,20 @@
+//Start Style Navbar 
+@import 'Colors';
+.navbar{
+    background: $White;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    a{
+        color:$Tuatara;
+        font-weight: 700;
+        text-transform: uppercase;
+        transition: all .5s ease-in-out;
+        font-family: 'Lato-Regular';
+        font-size: 13px;
+        margin:0 10px;
+        &:hover{
+            color:$Grey;
+            transition: all .5s ease-in-out;
+        }
+    }
+}

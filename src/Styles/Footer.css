@@ -1,0 +1,12 @@
+/*Style Footer */
+.Footer {
+  background: url("../Assets/Images/footer.jpg");
+  background-size: contain;
+  padding: 40px 0;
+}
+
+.Footer .logo p {
+  margin: 5px 0;
+  font-family: 'Lato-Regular';
+}
+/*# sourceMappingURL=Footer.css.map */
